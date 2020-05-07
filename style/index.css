@@ -1,1 +1,144 @@
 /* Add CSS styling here */
+/* Add reset here */
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* General styles */
+header {
+  text-align: center;
+  padding: 15px;
+}
+h1,
+h2 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+nav a {
+  color: #808686;
+  border: 1px solid black;
+  padding: 0.5em 1.25em;
+  text-decoration: none;
+  margin: 0;
+}
+nav a:hover {
+  background-color: #add5d5;
+  color: white;
+}
+nav {
+  display: flex;
+  justify-content: center;
+}
+.container {
+  padding: 1% 0;
+  text-align: center;
+}
+img {
+  max-width: 100%;
+}
+.images {
+  display: flex;
+}
+.images > * {
+  width: 20%;
+  margin: 1%;
+}
+footer {
+  text-align: center;
+  border: 1px solid black;
+  padding: 30px;
+  background-color: #add5d5;
+}
+button {
+  color: #808686;
+  border: 1px solid black;
+  padding: 0.5em 1.25em;
+  margin: 0;
+}
